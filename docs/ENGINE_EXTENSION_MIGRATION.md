@@ -1,12 +1,12 @@
-# Telegram-Matter → Extension-Matter: migración controlada
+# Telegram-Matter → Engine-Extensions-Matter: migración controlada
 
 Fecha: 2026-11-23. Estado: **fase de preparación documental, sin cambios de runtime**.
 
 ## Responsabilidad definitiva
 
-Extension-Matter será el único proyecto responsable de los adaptadores de terceros para WhatsApp, Telegram, Discord y futuras redes. Se comunica con Engine-Matter mediante contratos versionados; jamás introduce implementaciones de redes externas en el núcleo. Engine-Matter aloja la integración Matter-MSEL y los sistemas Matter propios, incluido Social-Matter. MSEL, lenguaje oficial, permanece en Matterssmith/MSEL; la carpeta `Matter-MSEL/` se aloja en Engine-Matter, no aquí.
+Engine-Extensions-Matter será el único proyecto responsable de los adaptadores de terceros para WhatsApp, Telegram, Discord y futuras redes. Se comunica con Engine-Matter mediante contratos versionados; jamás introduce implementaciones de redes externas en el núcleo. Engine-Matter aloja la integración Matter-MSEL y los sistemas Matter propios, incluido Social-Matter. MSEL, lenguaje oficial, permanece en Matterssmith/MSEL; la carpeta `Matter-MSEL/` se aloja en Engine-Matter, no aquí.
 
-Extension-Matter no es **Extensions-Matter**, repositorio privado existente para otros módulos/Anti; mantener ambos aislados y conservar sus historiales.
+Engine-Extensions-Matter no es **Extensions-Matter**, repositorio privado existente para otros módulos/Anti; mantener ambos aislados y conservar sus historiales.
 
 ## Estructura de destino
 
